@@ -18,8 +18,5 @@ public class LearnArrayDeque{
        System.out.println( adq.peekFirst());
        System.out.println( adq.peekLast());
        System.out.println(adq);
-
-
-
     }
 }
