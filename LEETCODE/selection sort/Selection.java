@@ -17,6 +17,12 @@ public class Selection {
     public static void main(String[] args) {
         int [] arr={64,25,12,22,11};
         int n=arr.length;
-        selectionSort(arr,n);
+		int m=5;
+		int[] nums1Copy = new int[m];
+		System.arraycopy(arr, 0, nums1Copy, 0,m);
+        // selectionSort(arr,n);
+		for (int i : nums1Copy) {
+			System.out.println(i);
+		}
     }
 }
